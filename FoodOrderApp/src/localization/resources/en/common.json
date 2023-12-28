@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "full": "React Native MyAppTemplate",
+    "initials": "RNB"
+  },
+  "helloUser": "Hi, my name is {{name}}",
+  "welcome": {
+    "title": "xxx"
+  },
+  "changeLanguage": "Change Language",
+  "changeTheme": "Change Theme",
+  "all_restaurant": "All RESTAURANTS",
+  "no_of_restaurant": "{{number}} restaurant delivering to you"
+}

@@ -1,0 +1,283 @@
+{
+  "user": [],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Restaurant One",
+      "des": "description for restaurant one",
+      "img": "https://images.pexels.com/photos/1546039/pexels-photo-1546039.jpeg?auto=compress&cs=tinysrgb&dpr=1",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.2"
+    },
+    {
+      "id": 2,
+      "name": "Restaurant Two",
+      "des": "description for restaurant two",
+      "img": "https://images.pexels.com/photos/1322184/pexels-photo-1322184.jpeg?auto=compress&cs=tinysrgb&dpr=1",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.3"
+    },
+    {
+      "id": 3,
+      "name": "Restaurant Three",
+      "des": "description for restaurant three",
+      "img": "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&dpr=1",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.4"
+    },
+    {
+      "id": 4,
+      "name": "Restaurant Four",
+      "des": "description for restaurant four",
+      "img": "https://placehold.co/600x400/tomato/white.png",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.5"
+    },
+    {
+      "id": 5,
+      "name": "Restaurant Five",
+      "des": "description for restaurant five",
+      "img": "https://placehold.co/600x400/tomato/white.png",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.6"
+    },
+    {
+      "id": 6,
+      "name": "Restaurant Six",
+      "des": "description for restaurant six",
+      "img": "https://placehold.co/600x400/tomato/white.png",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.7"
+    },
+    {
+      "id": 7,
+      "name": "Restaurant Seven",
+      "des": "description for restaurant seven",
+      "img": "https://placehold.co/600x400/tomato/white.png",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.8"
+    },
+    {
+      "id": 8,
+      "name": "Restaurant Eight",
+      "des": "description for restaurant eight",
+      "img": "https://placehold.co/600x400/tomato/white.png",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.9"
+    },
+    {
+      "id": 9,
+      "name": "Restaurant Nine",
+      "des": "description for restaurant nine",
+      "img": "https://placehold.co/600x400/tomato/white.png",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.0"
+    },
+    {
+      "id": 10,
+      "name": "Restaurant Ten",
+      "des": "description for restaurant ten",
+      "img": "https://placehold.co/600x400/tomato/white.png",
+      "timing": "20-30 min - 2km",
+      "discount": "40% off up to $5",
+      "rating": "4.2"
+    }
+  ],
+  "restaurantsDetails": [
+    {
+      "id": 1,
+      "name": "Restaurant One",
+      "tag": ["biryani", "kabab", "North west"],
+      "promotionTag": ["50% off up to $100", "Flat 25% off"],
+      "rating": "4.3",
+      "timing": "42 min 6 Km",
+      "dish": [
+        {
+          "id": "1",
+          "name": "dish One",
+          "price": 120,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "2",
+          "name": "dish two",
+          "price": 222,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "3",
+          "name": "dish three",
+          "price": 234,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "4",
+          "name": "dish four",
+          "price": 100,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "5",
+          "name": "dish five",
+          "price": 50,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "6",
+          "name": "dish six",
+          "price": 55,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "7",
+          "name": "dish seven",
+          "price": 23,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "8",
+          "name": "dish eight",
+          "price": 450,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "9",
+          "name": "dish nine",
+          "price": 220,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Restaurant Two",
+      "tag": ["tag1", "tag2", "tag3"],
+      "promotionTag": [
+        "50% off up to $100",
+        "Flat 25% off",
+        "Free first order"
+      ],
+      "rating": "4.5",
+      "timing": "42 min 6 Km",
+      "dish": [
+        {
+          "id": "2_1",
+          "name": "dish One",
+          "price": 120,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "2_2",
+          "name": "dish two",
+          "price": 222,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "2_3",
+          "name": "dish three",
+          "price": 234,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "2_4",
+          "name": "dish four",
+          "price": 100,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "2_5",
+          "name": "dish five",
+          "price": 50,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "2_6",
+          "name": "dish six",
+          "price": 55,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Behroz biryani",
+      "tag": ["biryani", "kabab", "North west"],
+      "promotionTag": ["50% off up to $100", "Flat 25% off"],
+      "rating": "4.3",
+      "timing": "42 min 6 Km",
+      "dish": [
+        {
+          "id": "3_1",
+          "name": "dish One",
+          "price": 120,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "3_2",
+          "name": "dish two",
+          "price": 222,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "3_3",
+          "name": "dish three",
+          "price": 234,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        },
+        {
+          "id": "3_4",
+          "name": "dish four",
+          "price": 100,
+          "description": "lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut lab",
+          "vegan": "false",
+          "image": "https://placehold.co/600x400/000000/FFFFFF/png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "full": "MyAppTemplate React Native",
+    "initials": "RNB"
+  },
+  "helloUser": "Salut, je m'appelle {{name}}",
+  "changeLanguage": "भाषा बदलें",
+  "changeTheme": "विषय को परिवर्तित करें",
+  "all_restaurant": "सभी रेस्तरां",
+  "no_of_restaurant": "{{number}} रेस्तरां आप तक डिलीवरी कर रहे हैं"
+}
