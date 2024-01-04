@@ -10,6 +10,7 @@ import {
 import AndroidModule from './src/androidModule/AndroidModule';
 import CommonModule from './src/commonModule/CommonModule';
 import IosModule from './src/iosModule/IosModule';
+import DatePickerModule from './src/androidModule/DatePickerModule';
 
 export default function App() {
   const [text, onChangeText] = React.useState('');
@@ -29,6 +30,17 @@ export default function App() {
               const random = Math.floor(Math.random() * 100);
               console.log(`android random ${random}`);
               AndroidModule.createAndroidEvent(random, result => {
+                setAndroidResult(result.toString());
+              });
+            }
+          }}
+        />
+        <Button
+          title="Date Pick"
+          onPress={() => {
+            if (Platform.OS === 'android') {
+              console.log('Android date picker');
+              DatePickerModule.openBasicDatePicker(result => {
                 setAndroidResult(result.toString());
               });
             }

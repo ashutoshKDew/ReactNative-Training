@@ -5,6 +5,7 @@ import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.reactnativemodule.androidmodule.AndroidModule;
+import com.reactnativemodule.androidmodule.DatePickerModule;
 import com.reactnativemodule.commonmodule.CommonModule;
 
 import java.util.ArrayList;
@@ -24,6 +25,7 @@ public class MyAppPackage implements ReactPackage {
         List<NativeModule> modules = new ArrayList<>();
 
         modules.add(new AndroidModule(reactContext));
+        modules.add(new DatePickerModule(reactContext));
         modules.add(new CommonModule(reactContext));
 
         return modules;
